@@ -10,6 +10,9 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'))
 });
 
+app.get('/index', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'))
+})
 // app.get('/', (req, res) => {
 //     res.sendFile(path.join(__dirname, 'colmajikal', 'index.html'))
 // });
@@ -22,7 +25,7 @@ app.get('/accessories', (req, res) => {
     res.sendFile(path.join(__dirname, 'accessories.html'))
 })
 
-app.get('/computer', (req, res) => {
+app.get('/computing', (req, res) => {
     res.sendFile(path.join(__dirname, 'computing.html'))
 })
 
