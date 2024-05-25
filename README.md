@@ -1,0 +1,1 @@
+This project is an online gadgets store called COLMAJIKAL check it out
