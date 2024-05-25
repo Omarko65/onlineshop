@@ -33,7 +33,7 @@ app.get('/electronics', (req, res) => {
     res.sendFile(path.join(__dirname, 'electronics.html'))
 })
 
-app.get('/phones-and-tablets', (req, res) => {
+app.get('/phones-and-tables', (req, res) => {
     res.sendFile(path.join(__dirname, 'phones-and-tables.html'))
 })
 
