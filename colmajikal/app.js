@@ -45,6 +45,10 @@ app.get('/contact-us', (req, res) => {
     res.sendFile(path.join(__dirname, '/contact/index.html'))
 })
 
+app.get('/sitemap', (req, res) => {
+    res.sendFile(path.join(__dirname, 'sitemap'))
+})
+
 app.listen(PORT, () => {
     console.log('Server is running on PORT 3000')
 })
