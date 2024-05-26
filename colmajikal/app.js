@@ -46,7 +46,7 @@ app.get('/contact-us', (req, res) => {
 })
 
 app.get('/sitemap', (req, res) => {
-    res.sendFile(path.join(__dirname, 'sitemap'))
+    res.sendFile(path.join(__dirname, 'sitemap.xml'))
 })
 
 app.listen(PORT, () => {
